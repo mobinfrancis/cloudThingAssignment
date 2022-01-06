@@ -3,4 +3,25 @@
   <groupId>assignment</groupId>
   <artifactId>CloudThingTask</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+ <dependencies> 
+  <!-- SELENIUM-->
+	<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+	</dependency>
+<!-- TESTNG-->
+	<dependency>
+  	<groupId>org.testng</groupId>
+ 	<artifactId>testng</artifactId>
+ 	 <version>6.14.3</version>
+     </dependency>
+ <!-- WEBDRIVER MANAGER -->
+   <dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.0.1</version>
+    </dependency>
+  </dependencies>
+  
 </project>
